@@ -35,6 +35,9 @@ This project includes **Spring Boot, JPA, MySQL**, and **JUnit for testing**. It
 | **GET**    | `/api/insurances/curated`       | Get insurance plans based on user details | 
 ---
 
+## Insurance API - Hosted on Railway 🚀
+base URL - https://insurance-api-task-production.up.railway.app
+
 ## 🏃‍♂️ How to Run Locally  
 
 ### 1️⃣ **Clone the Repository**  
