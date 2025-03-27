@@ -77,16 +77,16 @@ Run using this : mvn test
 
 ###✅ Postman API Testing
 
-✔ http://localhost:8080/api/insurance/all
+✔ https://insurance-api-task-production.up.railway.app/api/insurance/all
 ![image](https://github.com/user-attachments/assets/ef9eec12-f555-4202-a974-1a0eb0d08491)
 
-✔ http://localhost:8080/api/insurance/purchase/5
+✔ https://insurance-api-task-production.up.railway.app/api/insurance/purchase/5
 ![image](https://github.com/user-attachments/assets/3dfc3171-c771-4113-86d1-c604b85459d9)
 
-✔ http://localhost:8080/api/insurance/download/5
+✔ https://insurance-api-task-production.up.railway.app/api/insurance/download/5
 ![image](https://github.com/user-attachments/assets/c69d763a-5544-46eb-80aa-2521bc789112)
 
-✔http://localhost:8080/api/insurance/curated?age=30&gender=Male&income=50000
+✔ https://insurance-api-task-production.up.railway.app/api/insurance/curated?age=30&gender=male&income=50000
 ![image](https://github.com/user-attachments/assets/061f47b6-8c37-4cae-bfcc-84e3089dea97)
 
 
