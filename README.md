@@ -93,19 +93,18 @@ Run using this : mvn test
 ## cURL for Command prompt or terminal
 
 1️⃣ Get All Insurances (/api/insurance/all) : 
-curl -X GET "http://localhost:8080/api/insurance/all" -H "Content-Type: application/json"
+curl -X GET "https://insurance-api-task-production.up.railway.app/api/insurance/all"
 
 2️⃣ Purchase Insurance (/api/insurance/purchase/{id})
-curl -X POST "http://localhost:8080/api/insurance/purchase/1" -H "Content-Type: application/json"
+curl -X POST "https://insurance-api-task-production.up.railway.app/api/insurance/purchase/2" ^
+     -H "Content-Type: application/json" ^
+     -d "{ \"userId\": 123, \"policyId\": 2 }"
 
 3️⃣ Get Curated Insurances (/api/insurance/curated?age={}&gender={}&income={})
-curl -X GET "http://localhost:8080/api/insurance/curated?age=30&gender=Male&income=50000" -H "Content-Type: application/json"
+curl -X GET "https://insurance-api-task-production.up.railway.app/api/insurance/curated?age=30&gender=male&income=50000"
 
 4️⃣ Download Insurance Policy PDF (/api/insurance/download/{id})
-curl -X GET "http://localhost:8080/api/insurance/download/1" -o insurance_policy.pdf
-
-### ScreenShot of cURL
-![image](https://github.com/user-attachments/assets/1b4a4b88-69db-48c5-9217-2daf459b66bf)
+curl -X GET "https://insurance-api-task-production.up.railway.app/api/insurance/download/2"
 
 
 ## Final steps
